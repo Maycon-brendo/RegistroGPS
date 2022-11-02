@@ -17,7 +17,15 @@
             android:textSize="35dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Olá Entregador" />
+            android:text="Olá Entregador:" />
+
+        <TextView
+            android:id="@+id/tv_entregador"
+            android:layout_margin="10dp"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" " />
 
         <Button
             android:id="@+id/btn_gravar"

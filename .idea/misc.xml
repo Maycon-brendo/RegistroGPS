@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Maycon/AndroidStudioProjects/RegistroGPS/app/src/main/res/layout/activity_config.xml" value="0.31354166666666666" />
         <entry key="..\:/Users/Maycon/AndroidStudioProjects/RegistroGPS/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Maycon/AndroidStudioProjects/RegistroGPS/app/src/main/res/layout/content_config.xml" value="0.31354166666666666" />
         <entry key="..\:/Users/Maycon/AndroidStudioProjects/RegistroGPS/app/src/main/res/layout/fragment_configuracao.xml" value="0.5541666666666667" />
-        <entry key="..\:/Users/Maycon/AndroidStudioProjects/RegistroGPS/app/src/main/res/layout/fragment_home.xml" value="0.42731277533039647" />
+        <entry key="..\:/Users/Maycon/AndroidStudioProjects/RegistroGPS/app/src/main/res/layout/fragment_first.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/Maycon/AndroidStudioProjects/RegistroGPS/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/Users/Maycon/AndroidStudioProjects/RegistroGPS/app/src/main/res/layout/fragment_lista_registro.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Maycon/AndroidStudioProjects/RegistroGPS/app/src/main/res/layout/fragment_second.xml" value="0.31354166666666666" />
         <entry key="..\:/Users/Maycon/AndroidStudioProjects/RegistroGPS/app/src/main/res/layout/lista_item_registro.xml" value="0.33797909407665505" />
       </map>
     </option>

@@ -5,9 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.fragment.NavHostFragment
 import com.example.registrogps.R
 import com.example.registrogps.databinding.FragmentHomeBinding
+import com.example.registrogps.utils.getLoginFromSharedPrefs
 import com.example.registrogps.utils.nav
 
 
@@ -32,6 +32,11 @@ class HomeFragment : Fragment() {
 
     private fun setup() {
         setupClickListeners()
+        setupconfig()
+    }
+
+    private fun setupconfig() {
+        binding.tvEntregador.text = getLoginFromSharedPrefs()
     }
 
     private fun setupClickListeners() {
@@ -41,7 +46,7 @@ class HomeFragment : Fragment() {
         }
 
         binding.fabConfigs.setOnClickListener {
-            nav(R.id.action_homeFragment_to_configuracaoFragment)
+            nav(R.id.action_homeFragment_to_configActivity)
         }
 
     }

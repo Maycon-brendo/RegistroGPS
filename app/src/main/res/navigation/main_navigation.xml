@@ -13,17 +13,17 @@
             android:id="@+id/action_homeFragment_to_listaRegistroFragment"
             app:destination="@id/listaRegistroFragment" />
         <action
-            android:id="@+id/action_homeFragment_to_configuracaoFragment"
-            app:destination="@id/configuracaoFragment" />
+            android:id="@+id/action_homeFragment_to_configActivity"
+            app:destination="@id/configActivity" />
     </fragment>
-    <fragment
-        android:id="@+id/configuracaoFragment"
-        android:name="com.example.registrogps.fragments.ConfiguracaoFragment"
-        android:label="fragment_configuracao"
-        tools:layout="@layout/fragment_configuracao" />
     <fragment
         android:id="@+id/listaRegistroFragment"
         android:name="com.example.registrogps.fragments.ListaRegistroFragment"
         android:label="fragment_lista_registro"
         tools:layout="@layout/fragment_lista_registro" />
+    <activity
+        android:id="@+id/configActivity"
+        android:name="com.example.registrogps.ConfigActivity"
+        android:label="activity_config"
+        tools:layout="@layout/activity_config" />
 </navigation>
