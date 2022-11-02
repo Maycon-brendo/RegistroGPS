@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.registrogps.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <action
+        android:id="@+id/action_homeFragment_to_listaRegistroFragment"
+        app:destination="@id/listaRegistroFragment" />
+
+    <action
+        android:id="@+id/action_homeFragment_to_configuracaoFragment"
+        app:destination="@id/configuracaoFragment" />
+    <fragment
+        android:id="@+id/configuracaoFragment"
+        android:name="com.example.registrogps.fragments.ConfiguracaoFragment"
+        android:label="fragment_configuracao"
+        tools:layout="@layout/fragment_configuracao" />
+    <fragment
+        android:id="@+id/listaRegistroFragment"
+        android:name="com.example.registrogps.fragments.ListaRegistroFragment"
+        android:label="fragment_lista_registro"
+        tools:layout="@layout/fragment_lista_registro" />
+</navigation>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ConfiguracaoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/switch_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tema White/Dark" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome" />
+
+            <Button
+                android:id="@+id/btn_salvaconfig"
+                android:layout_margin="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salvar configs" />
+
+            <TextView
+                android:id="@+id/tv_nome"
+                android:layout_margin="120dp"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Olá " />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
