@@ -6,55 +6,5 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tv_começar"
-            android:layout_margin="50dp"
-            android:textSize="35dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Olá Entregador:" />
-
-        <TextView
-            android:id="@+id/tv_entregador"
-            android:layout_margin="10dp"
-            android:textSize="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=" " />
-
-        <Button
-            android:id="@+id/btn_gravar"
-            android:layout_margin="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Gravar" />
-
-        <Button
-            android:id="@+id/btn_encerrar"
-            android:layout_margin="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Encerrar" />
-
-        <Button
-            android:id="@+id/btn_tela_lista"
-            android:layout_margin="90dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Tela de registros" />
-
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/fab_configs"
-            android:layout_width="match_parent"
-            android:layout_margin="16dp"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            app:srcCompat="@drawable/ic_settings" />
-
-    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
