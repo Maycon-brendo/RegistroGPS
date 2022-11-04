@@ -1,29 +1,25 @@
 package com.example.registrogps
 
 import android.Manifest
+import android.R
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.location.Location
 import android.location.LocationListener
 import android.location.LocationManager
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentTransaction
-import androidx.navigation.findNavController
 import com.example.registrogps.databinding.ActivityMainBinding
-import com.example.registrogps.fragments.ListaRegistroFragment
-import com.example.registrogps.utils.nav
 import java.io.*
 import java.text.SimpleDateFormat
 import java.util.*
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -65,9 +61,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.btnTelaLista.setOnClickListener {
-            val intent = Intent(this, ListaRegistroFragment::class.java)
+            val intent = Intent(this, ListaRegistroActivity::class.java)
             startActivity(intent)
-
         }
 
         binding.fabConfigs.setOnClickListener {
